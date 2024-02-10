@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Encriptador de Textos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img class="logo-pagina" src="img/Logo.svg" alt="Logo de la página">
+    </header>
+
+    <main>
+
+        <section class="secc-1">
+
+            <div class="cont-caja-texto">
+                <textarea placeholder="Ingrese el texto a encriptar aquí..." class="caja-texto"></textarea> 
+            </div>
+
+            <div class="cont-caja-alerta">
+                <img class="img-warning" src="img/warning.png">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="cont-caja-botones">
+                <button type="button" id="btn-encriptar" onclick="encriptarTexto()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptarTexto()">Desencriptar</button>    
+            </div>
+
+        </section>
+
+        <section class="secc-2">
+
+            <div class="cont-caja-muñeco">
+                <img src="img/Muñeco.png" alt="Muñeco con lupa y diamante">
+            </div>
+
+            <div class="cont-caja-parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+
+            <div class="cont-caja-copiar">
+                <button type="button" id="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+
+            <div class="cont-caja-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>

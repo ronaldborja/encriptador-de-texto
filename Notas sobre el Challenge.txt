@@ -1,0 +1,68 @@
+Notas Encriptador de Texto. 
+
+ALURA -> Metodología SCRUM: 
+
+	* Dividir el proyecto en historias de usuario e ir implementadolas 
+
+Sprint #1 -> Crear el encriptador de texto 
+ 	* Trello -> Organización y gestión de equipos y tareas 
+	* Organización personal 
+	* Tarjetas 
+	* Cada columna contiene tareas a realizar 
+	* Mover las tarjetas de columna para saber si está en desarrollo, pausado o finalizado 
+	* Backlog -> Contiene las actividades a realizar 
+
+Links: 
+https://trello.com/b/TXkMCed4/seguimientoalura
+https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?fuid=977992624883196673
+
+2. Modelo Figma: 
+	* Construcción de layouts - interfaces 
+	* Contiene la vista final de la interfaz 
+
+3. Entrega -> Formulario + Discord 
+	* Subirlo a github
+	* Email -> 
+
+4. Requisitos del desafió 
+
+	1. La letra "e" es convertida para "enter"
+	2. La letra "i" es convertida para "imes"
+	3. La letra "a" es convertida para "ai"
+	4. La letra "o" es convertida para "ober" 
+	5. La letra "u" es convertida para "ufat" 
+
+	* Solo debe funcional con letras minusculas 
+	* No deben ser utilizados letras con acentos ni caracteres especiales 
+	* Debe poder se reversible -> Se encripta y se desencripta 
+	* Debe tener campos para inserció del texto a encriptar o desencriptar 
+	* El resultado se debe mostrar en pantalla 
+	* Debe haber un botón que tenga la misma funcionalidad de control + c de la opción "copiar" 
+	
+	* Desencriptar el texto: fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober 	cobernclufatimesdober cobern enterximestober!
+
+Elementos de la página web 
+	* Titulo de su web 
+	* Campo para el texto a encriptar 
+	* Botón para encriptar
+ 	* Botón para desencriptar
+	* Area para mostar el texto encriptado o desencriptado 
+	* Footer con los datos del desarrollador 
+
+
+NOTAS DEL CSS: 
+	* width: 100% -> El elemento ocupará el ancho completo de su contenedor padre. Es util para hacer que un elemento se extienda 
+			a lo largo disponible de todo su contenedor
+	
+	* height: 70% -> ocupar el 70% de la altura de su contenedor padre. 
+	* En el caso del header, ocupa el 70% en altura del body (contenedor padre) 
+	* position:absolute -> Se ubica con una posición absoluta con respecto al body 
+	* width: 100% -> Ocupa el 100% del body 
+	* display: flex -> Convierte el main en un contenedor flexible (Se comporta como un contenedor flexible para sus hijos)
+			* Contenedor facilmente manipulable 
+			* Alinear facilmente los elementos en el contenedor  
+	
+	* justify-content: space-between -> Alinear los elementos del main con un espaciado uniforme entre ellos 
+	* left, top
+	* border: none 
+	* 
